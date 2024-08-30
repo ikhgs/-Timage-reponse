@@ -1,14 +1,16 @@
 {
-  "name": "aesther-app",
+  "name": "my-chat-app",
   "version": "1.0.0",
-  "description": "Aesther application using Node.js and Gemini API",
-  "type": "module",
+  "main": "server.mjs",
   "scripts": {
     "start": "node server.mjs"
   },
   "dependencies": {
+    "axios": "^1.3.0",
     "express": "^4.18.2",
-    "node-fetch": "^3.3.1",
-    "multer": "^1.4.5"
-  }
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5",
+    "node-fetch": "^3.3.0"
+  },
+  "type": "module"
 }
